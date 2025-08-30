@@ -1,0 +1,13 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands: []   # Static site: koi prebuild nahi
+    build:
+      commands: []   # Koi build step nahi
+  artifacts:
+    baseDirectory: . # index.html root me hai
+    files:
+      - '**/*'
+  cache:
+    paths: []
