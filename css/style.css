@@ -3532,3 +3532,25 @@ label {
     height: 60px;
     border-radius: 50%;
 }
+
+/* Instagram Button Styles */
+.instagram-button {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;  
+    z-index: 999;  
+}
+
+.instagram-icon-img {
+    width: 60px;   /* Size of the icon */
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.instagram-icon-img:hover {
+    transform: scale(1.1);  /* Slight zoom effect on hover */
+}
+
