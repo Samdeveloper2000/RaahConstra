@@ -3522,9 +3522,9 @@ label {
   gap: 10px;
   position: fixed;
 
-  bottom: 60px;
+  bottom: 68px;
 
-  right: 40px;
+  right: 35px;
 
 }
 
@@ -3537,8 +3537,8 @@ label {
 
 .instagram-icon-img,
 .whatsapp-icon-img {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   transition: transform 0.3s ease;
 }
 
